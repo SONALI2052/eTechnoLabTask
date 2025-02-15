@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
+import ContactForm from './Components/ContactForm';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <Home/>
+        <ContactForm/>
+       
       </header>
     </div>
   );
